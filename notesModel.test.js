@@ -1,6 +1,9 @@
 const NotesModel = require("./notesmodel");
 
 describe("NotesModel", () => {
+
+
+  
   it("should construct an empty array", () => {
     const model = new NotesModel();
     expect(model.getNotes()).toEqual([]);
